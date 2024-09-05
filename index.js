@@ -31,7 +31,7 @@ const server = app.listen(8000, () => {
 
 const io = socket(server, {
   cors: {
-    origin:"http://localhost:5173",
+    origin:"https://chatbot-client-silk.vercel.app",
     credentials: true,
   },
 });
